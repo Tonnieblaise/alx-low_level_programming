@@ -5,8 +5,8 @@
 /* betty style doc for function main goes there */
 /*
  *main - Entry point
- * Description: Prints whether the number stored in
- * n is positive or negative
+ * Description: "Prints whether the number stored in
+ * n is positive or negative"
  */
 int main(void)
 {
