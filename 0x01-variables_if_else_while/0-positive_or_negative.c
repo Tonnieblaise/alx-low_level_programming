@@ -1,13 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /*
- *main - Entry point
- * Description: "Prints whether the number stored in
- * n is positive or negative"
+ * main - Entry point
+ * Description: assigns a random number to the variable n when executed, and
+ * prints 'n is positive', if greater than 0: 'n is negative', if less than 0:
+ * and 'n is zero', if equal to 0, followed by a new line
+ *
+ * Return: 0
  */
+
 int main(void)
 {
 	int n;
