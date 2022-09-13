@@ -1,13 +1,19 @@
-#include <unistd.h>
+#ifndef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char);
+void print_alphabeth(void);
+void print_alphabeth_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+int add(int a, int b);
+void print_times_table(int n);
+void num(int r, int n);
+void print_to_98(int n);
+
+#endif
+
