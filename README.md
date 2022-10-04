@@ -58,7 +58,7 @@ To access any project you are willing to view , please proceed like this:
 
 ## Author
 
-* **Pericles Adjovi** <[Pericles001](https://github.com/Pericles001)>
+* **Umoke Anthony** <[Tonnieblaise](https://github.com/Tonnieblaise)>
 
 ## Aknowledgements
 
