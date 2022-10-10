@@ -4,30 +4,30 @@
 
 /*
  * main - Entry point
+ *
  * Description: This program will assign a random number
  * to the variable n each time it is executed,and
  * prints the last digit of the number stored in the variable
- * */
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
+	int last_n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 5)
-	{
-		printf("Last digit of n is %d
-				and is greater than 5\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("Last digit of n is  %d
-                                and is 0\n", n);
-	}
-	else
-	{
-		printf("Last digit of n is %d                                      and is less than 6 and not 0\n", n);
-	}
+	last_n = (n % 10);
+
+	if (last_n > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, last_n);
+
+	else if (last_n == 0)
+		printf("Last digit of %d is %d and is 0\n", n, last_n);
+
+	else if (last_n < 6 && last_n != 0)
+		printf("Last digit of  %d is %d and is less than 6 and not 0\n",
+				n, last_n);
 	return (0);
 }
